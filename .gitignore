@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pt
+*.png
+*.csv
+*.ipynb_checkpoints/
+*.env
+env/
+dial_env/
+models/
+predictions/
+plots/
