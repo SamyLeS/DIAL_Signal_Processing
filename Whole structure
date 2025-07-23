@@ -1,0 +1,19 @@
+/
+├── README.md
+├── requirements.txt
+├── simulate_dial.ipynb      # DIAL simulation notebooks
+├── simulate_dial.py         # Script version of simulation
+├── dashboard.py             # Early prototype
+│
+└── AI_Module/
+    ├── calibration/
+    │   ├── bayes_calibrator.py   # Bayesian linear calibrator
+    │   └── __init__.py
+    │
+    └── LSTM/
+        ├── extended_dataset.py   # Noisy‑dataset generator
+        ├── train_lstm_v2.py      # LSTM v2 training
+        ├── models/
+        │   ├── lstm_v2.pt         # Trained model
+        │   └── professional_dashboard.py
+        └── __init__.py
